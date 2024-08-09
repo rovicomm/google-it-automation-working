@@ -38,6 +38,7 @@ def check_no_network():
         return True
 
 def main():
+    """Returns multiple checks"""
     checks=[
         (check_reboot, "Pending Reboot"),
         (check_root_full, "Root parition full"),
