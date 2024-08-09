@@ -25,7 +25,6 @@ def check_root_full():
 
 
 def main():
-    """Print multiple messages."""
     checks=[
         (check_reboot, "Pending Reboot"),
         (check_root_full, "Root parition full"),
