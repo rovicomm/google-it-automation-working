@@ -33,6 +33,7 @@ def check_no_network():
         return True
 
 def main():
+    """Print multiple messages."""
     checks=[
         (check_reboot, "Pending Reboot"),
         (check_root_full, "Root parition full"),
